@@ -56,5 +56,4 @@ EXPOSE 1234/tcp
 # P2P port
 EXPOSE 1235/tcp
 
-ENTRYPOINT ["/bin/entrypoint"]
-CMD ["-d"]
+CMD ["lotus", "daemon"]
